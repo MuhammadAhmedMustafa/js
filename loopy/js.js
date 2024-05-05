@@ -14,21 +14,21 @@
 //     alert(`your name is ${queArray1}`);
 //     allQueArrays --;
 // }
-let questions = ["name","cast","age","gender","city"];
-let answers = [];
-let counter = 0;
-const answerDiv = document.querySelector("#answers");
-const ans = document.createElement
-debugger
-while(counter < questions.length ){
-    let answer = prompt(`what is your ${questions[counter]}?`);
-    answers.push(answer.trim().toLowerCase());
-    counter++;
-}
-counter = 0;
-while(counter < answers.length ){
-    answerDiv.append(answers[counter]);
-    counter++;
-}
-answerDiv.style.backgroundColor='Red';
-console.log(answers);
+// let questions = ["name","cast","age","gender","city"];
+// let answers = [];
+// let counter = 0;
+// const answerDiv = document.querySelector("#answers");
+// const ans = document.createElement
+// debugger
+// while(counter < questions.length ){
+//     let answer = prompt(`what is your ${questions[counter]}?`);
+//     answers.push(answer.trim().toLowerCase());
+//     counter++;
+// }
+// counter = 0;
+// while(counter < answers.length ){
+//     answerDiv.append(answers[counter]);
+//     counter++;
+// }
+// answerDiv.style.backgroundColor='Red';
+// console.log(answers);
