@@ -32,3 +32,4 @@
 // }
 // answerDiv.style.backgroundColor='Red';
 // console.log(answers);
+// let questions = ["name","Age","Cast",""]
